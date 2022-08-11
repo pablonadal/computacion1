@@ -10,3 +10,7 @@ class test_missing_no(unittest.TestCase):
         nums = list(range(0,101))
         nums.remove(10)
         self.assertEqual(missing_no(nums), 10)
+
+test = test_missing_no()
+test.test_1()
+test.test_2()
